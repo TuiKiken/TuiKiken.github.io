@@ -1,0 +1,58 @@
+html, 
+body, 
+h1, h2, h3, h4, h5, h6, 
+p, span, b, i, a, ul, li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body {
+	background: #042029;
+	color: #586E75;
+	font: 14px normal Helvetica, Arial, sans-serif;
+	line-height: 21px;
+}
+h2 {
+	color: #A57800;
+	font-size: 14px;
+	line-height: 36px;
+	text-decoration: underline;
+}
+ul {
+	list-style: none;
+}
+b {
+	color: #BD3800;
+}
+i {
+	color: #A57800;
+}
+a {
+	color: #626262;
+}
+a:hover {
+	text-decoration: none;
+}
+h2,
+p,
+li {
+	border-top: 1px solid rgba(255, 255, 255, 0.02);
+	margin-bottom: -1px;
+	padding: 0 35px;
+}
+h2:hover,
+p:hover,
+li:hover {
+	background: #073642;
+}
+.line-number {
+	background: #073642;
+    color: #586E75;
+    float: left;
+    font-weight: normal;
+    margin-left: -35px;
+    padding-right: 5px;
+    text-align: right;
+    text-decoration: none;
+    width: 20px;
+}
